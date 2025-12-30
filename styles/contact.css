@@ -132,6 +132,10 @@
                 transform: translateY(0);
             }
 
+            &[open] .questions__icon {
+                transform: rotate(0.5turn); 
+            }
+
             .questions__header {
                 display: flex;
                 align-items: center;
@@ -148,6 +152,7 @@
                 .questions__icon {
                     width: 2rem;
                     height: 2rem;
+                    color: var(--gray-800);
                     transition: transform var(--transition);
                 }
             }

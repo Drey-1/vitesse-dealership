@@ -1,6 +1,7 @@
 :root {
     --color-primary: #FF7F50;    
-    --color-dark: #1A1A1A;       
+    --color-dark: #1A1A1A;
+    --color-black: #000000;       
     --color-light: #FFFFFF;
     
     --gray-100: #F8F9FA;
@@ -33,7 +34,7 @@
 
 body {
     font-family: var(--font-main);
-    color: var(--gray-800);
+    color: var(--color-black);
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -80,6 +81,7 @@ main{
             gap: 0.5rem;
 
             .header__item{
+                color: var(--gray-800);
                 transition: transform var(--transition), color var(--transition);
                 &:hover{
                     transform: scale(1.2);
