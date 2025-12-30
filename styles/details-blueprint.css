@@ -1,0 +1,38 @@
+@import url(global.css);
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-200);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 35rem;;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: var(--radius-md);
+    background-color: var(--color-light);
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.1);
+
+    .container__img {
+        margin: auto;
+    }
+
+    .container__title {
+        font-size: var(--text-lg);
+        color: var(--color-dark);
+        text-align: center;
+        border-bottom: 1px solid var(--color-dark);
+    }
+
+    .container__text {
+        font-size: var(--text-base);
+        color: var(--gray-800);
+        text-align: justify;
+    }
+}

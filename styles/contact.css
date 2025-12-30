@@ -1,33 +1,5 @@
 @import url(global.css);
 
-:root {
-    --color-primary: #FF7F50;    
-    --color-dark: #1A1A1A;  
-    --color-black: #000000;   
-    --color-light: #FFFFFF;
-    
-    --gray-100: #F8F9FA;
-    --gray-200: #E9ECEF;
-    --gray-500: #6C757D;
-    --gray-800: #343A40;
-
-    --text-xs: 0.75rem;
-    --text-sm: 0.875rem;
-    --text-base: 1rem;
-    --text-md: 1.25rem;
-    --text-lg: 1.5rem;
-    --text-xl: 2rem;
-    --text-2xl: 3rem;
-
-
-    --font-main: 'Roboto', sans-serif;
-
-    --radius-sm: 4px;
-    --radius-md: 8px;
-    
-    --transition: 0.3s ease;
-}
-
 .intro {
     display: flex;
     flex-direction: column;
