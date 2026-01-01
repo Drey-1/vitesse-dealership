@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Work Sans";
+    font-display: swap;
+    font-style: normal;
+    src: url(../assets/font/work-sans.woff2) format("woff2");
+}
+
 :root {
     --color-primary: #FF7F50;    
     --color-dark: #1A1A1A;
@@ -18,10 +25,10 @@
     --text-2xl: 3rem;
 
 
-    --font-main: 'Roboto', sans-serif;
+    --font-main: "Work Sans", sans-serif;
 
-    --radius-sm: 4px;
-    --radius-md: 8px;
+    --radius-sm: 5px;
+    --radius-md: 10px;
     
     --transition: 0.3s ease;
 }
