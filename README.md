@@ -95,7 +95,8 @@ index.html
 
 ### Home (Mobile)
 
-![Home Mobile](screenshots/home-mobile.png)
+<img src="screenshots/home-mobile.png" width="200">
+
 
 ### Listagem de Veículos
 
